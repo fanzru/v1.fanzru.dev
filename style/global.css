@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&Nunito=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+.font-patrick {
+    font-family: 'Patrick Hand', sans-serif;
+}
+.font-nunito{
+    font-family: 'Nunito',sans-serif;
+}
+.font-comforter{
+    font-family: "Comforter Brush",sans-serif;
+}
+.font-sora{
+    font-family: "Sora", sans-serif;
+}
