@@ -25,7 +25,7 @@ function Maintenance(props) {
               <a href={"https://github.com/Fanzru"} className="btn btn-outline">
                 <AiFillGithub/>
               </a>
-              <a href={"linkedin.com/in/fanzru"} className="btn btn-outline">
+              <a href={"https://www.linkedin.com/in/fanzru/"} className="btn btn-outline">
                 <FaLinkedin/>
               </a>
               <a href={"https://drive.google.com/file/d/19TO95rTNCLre7yHYiec-a-1eTj_rBi5U/view?usp=sharing"} className="btn btn-outline">
