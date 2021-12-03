@@ -10,15 +10,15 @@ function Maintenance(props) {
         <div className="text-center hero-content ">
           <div className=" md:w-3/5">
             <h1 className="mb-5 text-5xl md:text-7xl font-comforter">
-              Fanzru.dev
+              Hello There
             </h1>
             <p className="mb-5 font-sora text-xs md:text-base">
-              Hello, my name is
-              <strong> Ananda Affan Fattahila, </strong>
-              I am someone who is related to web development and product management. This is a website that I am currently building.
+              My name is <strong>Ananda Affan Fattahila</strong>, you can call me <strong>Affan</strong>,
+              I'm currently studying to become <strong>a Software Engineer </strong>
+              and <strong>Product Management</strong>. For now, I'm still developing this website hehe.
             </p>
             <p className={"mb-5 font-sora text-xs md:text-base"}>
-              Thank you for your visit :)
+              <i>Thank you for your visit :)</i>
             </p>
 
             <div className={"flex justify-center flex-wrap gap-4"}>
@@ -32,9 +32,7 @@ function Maintenance(props) {
                 <IoIosDocument/>
               </a>
             </div>
-            <div className={"font-comforter font-bold fixed bottom-4 left-0 w-full text-center"}>
-              @2021 Ananda Affan Fattahila, All Right Reserved.
-            </div>
+            <Footer/>
           </div>
         </div>
       </div>
