@@ -1,8 +1,9 @@
 import React from 'react';
 import {HiMenu} from "react-icons/hi";
-
+import {useRouter} from "next/router";
 function MenuDropdown(props) {
   const navbarData = props.data
+  const router = useRouter()
   return (
     <div className={"dropdown dropdown-end"}>
       <div tabIndex={"0"} className={"m-1 btn btn-sm btn-ghost"}>
@@ -12,7 +13,7 @@ function MenuDropdown(props) {
         {navbarData.map((data, idx) => {
           return(
             <li key={data.content}>
-              <a>{data.content}</a>
+              <button onClick={()=>{router.push(data.href)}} className="py-2 font-medium rounded-md hover:bg-gray-400 hover:text-white"> {data.content}</button>
             </li>
           )
         })}

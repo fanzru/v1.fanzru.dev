@@ -1,33 +1,34 @@
 import React from 'react';
 import MenuDropdown from "./menu_dropdown";
 import MenuTabs from "./menu_tabs";
-
+import {useRouter} from "next/router";
 function  Navbar(props) {
+  const router = useRouter()
   const activeMenu = props.activeMenu
   const navbarData = [
     {
       content: "Blog",
-      href: "/"
+      href: "/blog"
     },
     {
-      content: "Project",
-      href: "/"
+      content: "Projects",
+      href: "/projects"
     },
     {
       content: "About",
-      href: "/"
+      href: "/about"
     }
   ]
 
   return (
     <div className={"flex flex-row px-10 py-2 md:py-4  border-b-2 border-dashed fixed items-center justify-between md:justify-start w-screen bg-white"}>
       {/* Logo */}
-      <a href="/" className={"font-comforter text-3xl"}>Fanzru.dev</a>
+      <button onClick={()=> {router.push("/")}} className={"font-comforter text-3xl font-semi"}>Fanzru.dev</button>
       {/* Menu */}
-      <div className={"block md:hidden"}>
+      <div className={"block md:hidden font-nunito"}>
         <MenuDropdown data={navbarData} />
       </div>
-      <div className={"hidden md:block"}>
+      <div className={"hidden md:block  "}>
         <MenuTabs data={navbarData} activeMenu={activeMenu}/>
       </div>
 

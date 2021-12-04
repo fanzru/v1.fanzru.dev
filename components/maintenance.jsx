@@ -17,7 +17,7 @@ function Maintenance(props) {
               I'm currently studying to become <strong>a Software Engineer </strong>
               and <strong>Product Management</strong>. For now, I'm still developing this website hehe.
             </p>
-            <p className={"mb-5 font-sora text-xs md:text-base"}>
+            <p className={"mb-5 font-nunito text-xs md:text-base"}>
               <i>Thank you for your visit :)</i>
             </p>
 
