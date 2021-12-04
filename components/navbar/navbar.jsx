@@ -21,14 +21,14 @@ function  Navbar(props) {
   ]
 
   return (
-    <div className={"flex flex-row px-10 py-2 md:py-4  border-b-2 border-dashed fixed items-center justify-between md:justify-start w-screen bg-white"}>
+    <div className={"flex flex-row px-10 py-2 md:py-4 z-10  border-b-2 border-dashed fixed items-center justify-between md:justify-start w-screen bg-white"}>
       {/* Logo */}
       <button onClick={()=> {router.push("/")}} className={"font-comforter text-3xl font-semi"}>Fanzru.dev</button>
       {/* Menu */}
-      <div className={"block md:hidden font-nunito"}>
+      <div className={"block md:hidden font-sora"}>
         <MenuDropdown data={navbarData} />
       </div>
-      <div className={"hidden md:block  "}>
+      <div className={"hidden md:block font-sora "}>
         <MenuTabs data={navbarData} activeMenu={activeMenu}/>
       </div>
 

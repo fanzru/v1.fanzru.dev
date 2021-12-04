@@ -12,7 +12,7 @@ function Maintenance(props) {
             <h1 className="mb-5 text-5xl md:text-7xl font-comforter">
               Hello There
             </h1>
-            <p className="mb-5 font-sora text-xs md:text-base">
+            <p className="mb-5 font-sora text-sm md:text-base">
               My name is <strong>Ananda Affan Fattahila</strong>, you can call me <strong>Affan</strong>,
               I'm currently studying to become <strong>a Software Engineer </strong>
               and <strong>Product Management</strong>. For now, I'm still developing this website hehe.

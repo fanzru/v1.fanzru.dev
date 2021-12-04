@@ -7,11 +7,11 @@ function MenuTabs(props) {
 
   return (
     // Forcing this component to use `navbarmenu` theme
-    <div className={"flex mx-10 px-3 gap-5 font-nunito font-medium"}>
+    <div className={"flex mx-10 px-3 gap-5"}>
       {
         navbarData.map((data, idx) => {
           return (
-              <button onClick={()=>{router.push(data.href)}} className={"font-semibold mx-5 block hover:font-bold"}>
+              <button onClick={()=>{router.push(data.href)}} className={" mx-5 block hover:font-bold"}>
                 {data.content}
               </button>
           )

@@ -11,7 +11,7 @@ function Comingsoon(props) {
             <h1 className="mb-5 text-5xl md:text-7xl font-comforter">
               Coming Soon ...
             </h1>
-            <p className={"mb-5 font-nunito text-xs md:text-base"}>
+            <p className={"mb-5 font-sora text-xs md:text-base"}>
               <i>don't forget to follow my story :D</i>
             </p>
             <Footer/>
