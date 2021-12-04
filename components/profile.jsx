@@ -32,7 +32,7 @@ function Profile(props) {
 
   return (
   <div>
-    <div className="flex flex-col font-sora ">
+    <div className="flex flex-col ">
       <div className={"flex flex-col items-center mt-10"}>
         <img src="fanzru.png" className="mask mask-squircle md:h-72"/>
       </div>
