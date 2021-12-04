@@ -13,7 +13,7 @@ function Profile(props) {
     text_3: "I really like the path that I am currently fighting for, on campus I also join several organizations to increase relations and knowledge such as being the chairman of [**ILMY Tel-U**](https://www.instagram.com/ilmy_univtelkom/), diplomatic staff of [**BPM IF**](https://www.instagram.com/bpmiftelu/) legislation and academic staff of the New [**Generation of Indonesia (Genbi Tel-U)**](https://www.instagram.com/genbi_telu/). I also joined several laboratories such as a member back end developer of [**Advanced Software Engineering Lab**](https://www.instagram.com/rplgdc_/), member of data science at [**Data Science Lab**](https://www.instagram.com/bigdata.lab/) and currently doing an internship as a business analyst at [**Motion Lab**](https://www.instagram.com/bigdata.lab/).",
     text_4: "I have a **hobby** of **listening to music**. It might look funny, but the music I like the most is the genre **Dangdut**, **Koplo** or **songs from Central Java**.",
     contact_1: "I really like and am passionate about **connecting** with everyone, so if you want to contact me, you can use social media and the contact below:",
-    contact_2: " In addition, you can [**view and read my resume here,**](https://drive.google.com/file/d/1xy6foprwhnv-xo_4EZjpJ0dSu5Cn3IaW/view?usp=sharing%22) I was very interested because I visited my profile.",
+    contact_2: " In addition, you can [**view and read my resume here.**](https://drive.google.com/file/d/1xy6foprwhnv-xo_4EZjpJ0dSu5Cn3IaW/view?usp=sharing%22) I am very grateful, because you have visited my profile..",
   }
   const sosmeds = [
     {
