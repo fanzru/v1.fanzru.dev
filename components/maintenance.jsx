@@ -37,10 +37,6 @@ function Maintenance(props) {
         </div>
       </div>
     </div>
-    // <div  className={"flex justify-center h-screen font-bold text-base md:text-5xl"} data-theme={"light"}>
-    //   <h1 className={"flex items-center font-nunito"}>Hello I'm Ananda Affan Fattahila</h1>
-    //   <p> </p>
-    // </div>
   );
 }
 

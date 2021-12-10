@@ -16,9 +16,9 @@ function MyApp({ Component, pageProps }) {
         <meta name="twitter:card" content="summary" />
         <meta
           property="og:description"
-          content="Hello slur selamat datang ehehehe !!!"
+          content="A Software Engineer and Agile Enthusiast"
         />
-        <meta property="og:image" content={"https://4.bp.blogspot.com/-dlYC3oRgipc/VXKAJ8277lI/AAAAAAAAGxw/PSqW-Jf3LQQ/s1600/Assassination-Classroom-111.jpg"} />
+        <meta property="og:image" content={"https://drive.google.com/file/d/14gjUIt5dU5KH55Kh9A-gQ1Iy41nBc93q/view?usp=sharing"} />
       </Head>
       <Component {...pageProps} />
     </div>

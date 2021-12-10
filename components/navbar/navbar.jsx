@@ -15,6 +15,10 @@ function  Navbar(props) {
       href: "/projects"
     },
     {
+      content: "Story",
+      href: "https://fanzru.dev"
+    },
+    {
       content: "About",
       href: "/about"
     }

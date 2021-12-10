@@ -11,9 +11,11 @@ function MenuTabs(props) {
       {
         navbarData.map((data, idx) => {
           return (
+            <div key={idx}>
               <button onClick={()=>{router.push(data.href)}} className={" mx-5 block hover:font-bold"}>
                 {data.content}
               </button>
+             </div>
           )
         })
       }
