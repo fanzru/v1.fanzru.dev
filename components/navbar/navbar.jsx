@@ -16,7 +16,7 @@ function  Navbar(props) {
     },
     {
       content: "Story",
-      href: "https://fanzru.dev"
+      href: "https://story.fanzru.dev"
     },
     {
       content: "About",
@@ -27,7 +27,7 @@ function  Navbar(props) {
   return (
     <div className={"flex flex-row px-10 py-2 md:py-4 z-10  border-b-2 border-dashed fixed items-center justify-between md:justify-start w-screen bg-white"}>
       {/* Logo */}
-      <button onClick={()=> {router.push("/")}} className={"font-comforter text-3xl font-semi"}>Fanzru.dev</button>
+      <button onClick={()=> {router.push("/")}} className={"font-comforter text-2xl font-semi"}>Fanzru.dev</button>
       {/* Menu */}
       <div className={"block md:hidden font-sora"}>
         <MenuDropdown data={navbarData} />
