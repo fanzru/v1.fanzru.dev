@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
       <Head>
         <title>Hello i'm Affan</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width"/>
-        <meta property="og:url" content="fanzru.dev" />
+        <meta property="og:url" content="fanzru" />
         <meta property="og:type" content="website" />
         <meta property="fb:app_id" content="your fb id" />
         <meta property="og:title" content={"Hallo"} />
